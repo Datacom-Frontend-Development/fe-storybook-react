@@ -6,17 +6,41 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^6.0.5",
+    "@mantine/dates": "^6.0.5",
+    "@mantine/form": "^6.0.5",
+    "@mantine/hooks": "^6.0.5",
+    "@mantine/modals": "^6.0.5",
+    "@mantine/next": "^6.0.5",
+    "@mantine/notifications": "^6.0.5",
+    "@tabler/icons-react": "^2.12.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
+    "dayjs": "^1.11.7",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-rc.8",
+    "@storybook/addon-interactions": "^7.0.0-rc.8",
+    "@storybook/addon-links": "^7.0.0-rc.8",
+    "@storybook/blocks": "^7.0.0-rc.8",
+    "@storybook/nextjs": "^7.0.0-rc.8",
+    "@storybook/react": "^7.0.0-rc.8",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "eslint-plugin-storybook": "^0.6.11",
+    "storybook": "^7.0.0-rc.8"
   }
 }
